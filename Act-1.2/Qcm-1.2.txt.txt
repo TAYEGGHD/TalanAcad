@@ -1,0 +1,7 @@
+
+ QCM 1 : C
+ QCM 2 : C
+ QCM 3 : A
+ QCM 4 : B
+ QCM 5 : C
+ QCM 6 : F

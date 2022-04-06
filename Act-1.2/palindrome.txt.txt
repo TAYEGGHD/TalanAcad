@@ -1,0 +1,15 @@
+ 
+ Fonction Palindrome 
+   
+    var mot: caractére
+        i : entier
+
+  début
+    
+    pour i de 0 à (taille(mot) -1) / 2 faire
+      si mot[i] = mot[taille(mot)-1-i] alors
+       retourner ("vrai")
+       sinon retourner ("faux")
+      finsi
+    finpour 
+  fin

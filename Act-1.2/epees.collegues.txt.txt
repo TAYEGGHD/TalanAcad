@@ -1,0 +1,20 @@
+
+fonction triBulle(ref T :tableau[1..12] de caractére <-[Alban,Jim, Bob, Albatroz, Jinto, Bow, Hijo, Manu, Seb, Teilo, Charles, Xavier,] );
+  var i,j :entier;
+  début
+    pour i de 1 à 12 faire
+     écrire(" Nom ",i," :")
+     lire(Nom[i])
+    finpour
+
+    pour i de 1 à 11 faire
+      pour j de 12 à i+1 par pas de -1 faire
+        si T[j] > T[j-1] alors
+           echange(T, j, j-1);
+        finsi
+      finpour
+    finpour
+  fin
+finfonction
+
+

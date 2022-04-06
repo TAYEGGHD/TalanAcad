@@ -1,0 +1,16 @@
+
+fonction triSelection(ref T :tableau[1..8] d'entiers <- [45, 54, 23, 32, 64, 46, 28, 82]) ;
+  var i,j,indice :entier;
+
+indice=1  
+ début
+    pour i allant de 1 à 7 faire
+       pour j allant de 2 à 8 faire
+        si T[j] > T[indice] alors
+        indice = j;
+        finsi
+       finpour      
+     echange(T[i],T[indice]);
+    finpour
+  fin
+finfonction

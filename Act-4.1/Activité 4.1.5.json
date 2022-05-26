@@ -1,0 +1,49 @@
+{
+   "Evenements": {
+      "Evenement": {
+         "titre": "RUN IN CARTHAGE",
+         "theme": "sportif",
+         "date": "02-10-2022",
+         "lieu": "Théâtre Romain De Carthage",
+         "budget": "1000 DNT",
+         "activites": {
+            "activite": [
+               {
+                  "titreact": "rechauffement",
+                  "dureeact": "un quart d'heure"
+               },
+               {
+                  "titreact": "course",
+                  "dureeact": "une heure"
+               },
+               {
+                  "titreact": "celebration des gagnats",
+                  "dureeact": "une demi-heure"
+               }
+            ]
+         },
+         "participants": {
+            "invites": {
+               "invite": [
+                  {
+                     "nominv": "hbiba ghribi",
+                     "IDinv": "01",
+                     "NEinv": "Académie internationale des athlètes pour la culture de la paix"
+                  },
+               ]
+            },
+            "intervenants": {
+               "intervenant": [
+                  {
+                     "nomint": "jihene miled",
+                     "IDint": "01",
+                     "NEint": "mosaiqueFM",
+                     "langue": "français"
+                  },
+                  
+               ]
+            }
+         }
+      }
+   }
+}

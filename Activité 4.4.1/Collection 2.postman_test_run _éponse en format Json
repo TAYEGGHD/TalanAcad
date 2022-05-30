@@ -1,0 +1,111 @@
+{
+	"id": "35dbb461-51b3-462a-8e73-93391690be8c",
+	"name": "Collection 2",
+	"timestamp": "2022-05-30T14:38:42.897Z",
+	"collection_id": "21188642-eb40324a-e469-47bf-a7ab-3980eed32aaf",
+	"folder_id": "21188642-407a778a-8f3c-4bfa-966f-cb01c2b2ef4a",
+	"environment_id": "0",
+	"totalPass": 0,
+	"totalFail": 3,
+	"results": [
+		{
+			"id": "5f1d1175-b577-47bb-aee4-844615146d52",
+			"name": "GET weather by city name",
+			"url": "https://api.openweathermap.org/data/2.5/weather?q=London&appid=8b1cf5a45799a90d13959e4915254b5b",
+			"time": 221,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "814aad61-6301-4fa1-b575-d047d64f39b1",
+			"name": "Get weather by geographic coordinates",
+			"url": "http://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&appid=8b1cf5a45799a90d13959e4915254b5b",
+			"time": 175,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				175
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				}
+			]
+		},
+		{
+			"id": "06fb19fb-7ab5-4bba-86b4-349b359fdfe7",
+			"name": "GET prévision + 5 jours",
+			"url": "http://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&appid=8b1cf5a45799a90d13959e4915254b5b",
+			"time": 66,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Your test name": false
+			},
+			"testPassFailCounts": {
+				"Your test name": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				66
+			],
+			"allTests": [
+				{
+					"Your test name": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 462,
+	"collection": {
+		"requests": [
+			{
+				"id": "5f1d1175-b577-47bb-aee4-844615146d52",
+				"method": "GET"
+			},
+			{
+				"id": "814aad61-6301-4fa1-b575-d047d64f39b1",
+				"method": "GET"
+			},
+			{
+				"id": "06fb19fb-7ab5-4bba-86b4-349b359fdfe7",
+				"method": "GET"
+			}
+		]
+	}
+}

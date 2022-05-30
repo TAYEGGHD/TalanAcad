@@ -1,0 +1,111 @@
+{
+	"id": "6516a05d-6a2f-434d-9daa-9f96f5328290",
+	"name": "Collection 2",
+	"timestamp": "2022-05-30T14:06:52.287Z",
+	"collection_id": "21188642-eb40324a-e469-47bf-a7ab-3980eed32aaf",
+	"folder_id": "21188642-407a778a-8f3c-4bfa-966f-cb01c2b2ef4a",
+	"environment_id": "0",
+	"totalPass": 1,
+	"totalFail": 2,
+	"results": [
+		{
+			"id": "5f1d1175-b577-47bb-aee4-844615146d52",
+			"name": "GET weather by city name",
+			"url": "https://api.openweathermap.org/data/2.5/weather?q=London&appid=8b1cf5a45799a90d13959e4915254b5b",
+			"time": 208,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify response time is less than 200ms": false
+			},
+			"testPassFailCounts": {
+				"Verify response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				208
+			],
+			"allTests": [
+				{
+					"Verify response time is less than 200ms": false
+				}
+			]
+		},
+		{
+			"id": "814aad61-6301-4fa1-b575-d047d64f39b1",
+			"name": "Get weather by geographic coordinates",
+			"url": "http://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&appid=8b1cf5a45799a90d13959e4915254b5b",
+			"time": 485,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify response time is less than 200ms": false
+			},
+			"testPassFailCounts": {
+				"Verify response time is less than 200ms": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				485
+			],
+			"allTests": [
+				{
+					"Verify response time is less than 200ms": false
+				}
+			]
+		},
+		{
+			"id": "06fb19fb-7ab5-4bba-86b4-349b359fdfe7",
+			"name": "GET prévision + 5 jours",
+			"url": "http://api.openweathermap.org/data/2.5/forecast?lat=35&lon=139&appid=8b1cf5a45799a90d13959e4915254b5b",
+			"time": 57,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Verify response time is less than 200ms": true
+			},
+			"testPassFailCounts": {
+				"Verify response time is less than 200ms": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				57
+			],
+			"allTests": [
+				{
+					"Verify response time is less than 200ms": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 750,
+	"collection": {
+		"requests": [
+			{
+				"id": "5f1d1175-b577-47bb-aee4-844615146d52",
+				"method": "GET"
+			},
+			{
+				"id": "814aad61-6301-4fa1-b575-d047d64f39b1",
+				"method": "GET"
+			},
+			{
+				"id": "06fb19fb-7ab5-4bba-86b4-349b359fdfe7",
+				"method": "GET"
+			}
+		]
+	}
+}
